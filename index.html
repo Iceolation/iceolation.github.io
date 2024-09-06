@@ -31,9 +31,8 @@
         h1 {
             font-size: 2rem; 
             margin: 0.5em 0; 
-            white-space: nowrap; /* Prevent text from wrapping to the next line */
-            overflow: hidden; /* Hide any overflow */
-            text-overflow: ellipsis; /* Display ellipsis (...) if the text overflows */
+            word-break: break-word; 
+            overflow-wrap: break-word; 
     
         }
         p {
@@ -63,7 +62,7 @@
 <body>
     <div class="container">
         <img src="iceolation-online1.png" alt="ICEOLATION ONLINE">
-        <h1>sassuwunnu@iceolation.net</h1>
+        <h1>sassuwunnu&shy;@iceolation.net</h1>
         <p>e-mail us to order your copy of the limited hawthorne tape.</p>
         
     </div>
