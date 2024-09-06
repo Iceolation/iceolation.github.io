@@ -31,6 +31,9 @@
         h1 {
             font-size: 2rem; 
             margin: 0.5em 0; 
+            white-space: nowrap; /* Prevent text from wrapping to the next line */
+            overflow: hidden; /* Hide any overflow */
+            text-overflow: ellipsis; /* Display ellipsis (...) if the text overflows */
     
         }
         p {
