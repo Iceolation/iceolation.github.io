@@ -11,14 +11,26 @@
             text-align: center;
             background-color: black;
             color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
         .container {
             padding: 20px;
-            color: white
+            color: white;
+            max-width: 70%;
+            box-sizing: border-box;
+            
         }
         img {
             max-width: 80%;
             height: auto;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
         }
     </style>
 </head>
